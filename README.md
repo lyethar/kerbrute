@@ -1,9 +1,9 @@
 # Kerbrute
-[![CircleCI](https://circleci.com/gh/ropnop/kerbrute.svg?style=svg)](https://circleci.com/gh/ropnop/kerbrute)
+[![CircleCI](https://circleci.com/gh/lyethar/kerbrute.svg?style=svg)](https://circleci.com/gh/lyethar/kerbrute)
 
 A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication
 
-Grab the latest binaries from the [releases page](https://github.com/ropnop/kerbrute/releases/latest) to get started.
+Grab the latest binaries from the [releases page](https://github.com/lyethar/kerbrute/releases/latest) to get started.
 
 ## Background
 This tool grew out of some [bash scripts](https://github.com/ropnop/kerberos_windows_scripts) I wrote a few years ago to perform bruteforcing using the Heimdal Kerberos client from Linux. I wanted something that didn't require privileges to install a Kerberos client, and when I found the amazing pure Go implementation of Kerberos [gokrb5](https://github.com/jcmturner/gokrb5), I decided to finally learn Go and write this. 
@@ -158,10 +158,10 @@ Version: dev (n/a) - 05/11/19 - Ronnie Flathers @ropnop
 ```
 
 ## Installing
-You can download pre-compiled binaries for Linux, Windows and Mac from the [releases page](https://github.com/ropnop/kerbrute/releases/tag/latest). If you want to live on the edge, you can also install with Go:
+You can download pre-compiled binaries for Linux, Windows and Mac from the [releases page](https://github.com/lyethar/kerbrute/releases/tag/latest). If you want to live on the edge, you can also install with Go:
 
 ```
-$ go get github.com/ropnop/kerbrute
+$ go get github.com/lyethar/kerbrute
 ```
 
 With the repository cloned, you can also use the Make file to compile for common architectures:
