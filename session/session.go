@@ -9,7 +9,7 @@ import (
 
 	"github.com/ropnop/gokrb5/v8/iana/errorcode"
 
-	kclient "github.com/ropnop/gokrb5/v8/client"
+	kclient "github.com/lyethar/gokrb5/v8/client"
 	kconfig "github.com/ropnop/gokrb5/v8/config"
 	"github.com/ropnop/gokrb5/v8/messages"
 )
