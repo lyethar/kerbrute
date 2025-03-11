@@ -12,6 +12,7 @@ import (
 	kclient "github.com/lyethar/gokrb5/v8/client"
 	kconfig "github.com/ropnop/gokrb5/v8/config"
 	"github.com/ropnop/gokrb5/v8/messages"
+	//test
 )
 
 const krb5ConfigTemplateDNS = `[libdefaults]
